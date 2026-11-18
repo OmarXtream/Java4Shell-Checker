@@ -22,7 +22,7 @@ Safe for production — never attaches to a JVM, writes no files, changes no set
 grep -m1 '^flags' /proc/cpuinfo | tr ' ' '\n' | grep -E '^(avx512f|avx512bw|avx512vbmi|bmi2)$'
 ```
 
-If `avx512vbmi` and `avx512bw` are present, the hardware takes the vulnerable code path.
+The output must include all four flags (`avx512f`, `avx512bw`, `avx512vbmi`, `bmi2`) for the CPU to take the vulnerable code path.
 
 ## Usage
 
