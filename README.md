@@ -2,7 +2,7 @@
 
 Read-only local checker scripts for **CVE-2026-114938 (Java4Shell)** on Windows and Linux.
 
-Safe for production — never attaches to a JVM, writes no files, changes no settings.
+Safe for production - never attaches to a JVM, writes no files, changes no settings.
 
 ## Affected Versions
 
@@ -12,7 +12,7 @@ Safe for production — never attaches to a JVM, writes no files, changes no set
 | 21 | Fixed in **21.0.13.1** |
 | 25 | Fixed in **25.0.5.1** |
 | 27 | Fixed in **27.0.1.1** |
-| 18–20, 22–24, 26 | End of life, no fix — move to a patched LTS |
+| 18-20, 22-24, 26 | End of life, no fix - move to a patched LTS |
 | 8 (standard), 11, ARM64, OpenJ9 | Not affected |
 | Oracle 8u511b33-perf | Affected (fixed in 8u513-perf) |
 
