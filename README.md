@@ -26,7 +26,11 @@ The output must include all four flags (`avx512f`, `avx512bw`, `avx512vbmi`, `bm
 
 ## Usage
 
+> **Note:** Both scripts must be run with elevated privileges (Administrator on Windows, root on Linux) to inspect all users' processes, their command lines, and loaded modules. Without elevation, results will be incomplete.
+
 ### Windows (PowerShell)
+
+Run as Administrator:
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File .\Check-Java4Shell.ps1
